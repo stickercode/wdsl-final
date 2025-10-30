@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="blog-template.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drifting Diaries | Abuja Blog</title>
+
+  <style>
+    /* === SIDEBAR NAVIGATION === */
+    .sidebar {
+      position: relative;
+      width: 220px;
+      background-color: var(--light-cream);
+      border: 2px solid var(--sky-blue);
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin: 40px 0 30px 40px;
+      float: left;
+      box-shadow: 0 4px 10px rgba(46, 78, 54, 0.15);
+    }
+    .sidebar h4 {
+      text-align: center;
+      color: var(--forest-green);
+      margin-bottom: 12px;
+      font-family: "Playfair Display", serif;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 8px 0;
+    }
+    .sidebar a {
+      display: block;
+      padding: 8px 12px;
+      color: var(--coffee-brown);
+      background-color: var(--white);
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      font-weight: 600;
+      border: 1px solid transparent;
+    }
+    .sidebar a:hover {
+      background-color: var(--sky-blue);
+      color: var(--white);
+      border-color: var(--forest-green);
+      transform: translateX(5px);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* === BLOG ENTRY === */
+    .blog-entry {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .blog-content {
+      flex: 1;
+      max-width: 850px;
+      background-color: var(--white);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-image img {
+      width: 100%;
+      max-height: 450px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header id="navbar">
+    <div id="logo">
+      <h1 class="site-title">DRIFTING DIARIES</h1>
+    </div>
+    <nav id="nav-links">
+      <ul class="menu">
+        <li class="menu-item"><a href="../index.html#home-section">Home</a></li>
+        <li class="menu-item"><a href="../index.html#destinations-section">Destinations</a></li>
+        <li class="menu-item"><a href="../Allblogs/allblogs.html">Blogs</a></li>
+        <li class="menu-item"><a href="../index.html#about-section">About</a></li>
+        <li class="menu-item"><a href="../index.html#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- === BLOG LAYOUT === -->
+  <section class="blog-entry">
+
+    <!-- === SIDEBAR === -->
+    <aside class="sidebar">
+      <h4>Quick Jump</h4>
+      <ul>
+        <li><a href="#rocks">Majestic Rocks & Parks</a></li>
+        <li><a href="#architecture">Cultural & Architectural Wonders</a></li>
+        <li><a href="#escapes">Natural Escapes</a></li>
+        <li><a href="#tips">Travel Tips</a></li>
+      </ul>
+    </aside>
+
+    <!-- === MAIN BLOG CONTENT === -->
+    <article class="blog-content">
+      <h2 class="blog-title">ABUJA: GATEWAY TO NIGERIA’S MODERN WONDERS</h2>
+
+      <div class="main-image">
+        <img src="../Images/Nigeria.webp" alt="Abuja skyline">
+      </div>
+
+      <p>
+        Welcome to <em>Abuja</em>, Nigeria’s purpose-built capital — a city of clean boulevards, bold architecture, and stunning green landscapes.
+        Whether you’re exploring its vibrant art scene or escaping to its tranquil lakes, Abuja captures the perfect blend of modernity and culture.
+      </p>
+
+      <h3 id="rocks"><strong>Majestic Rocks & Green Spaces</strong></h3>
+      <ul>
+        <li><strong>Zuma Rock:</strong> The iconic “Gateway to Abuja.” Best seen during sunset for dramatic photos.</li>
+        <li><strong>Millennium Park:</strong> The city’s largest public park — perfect for picnics, morning jogs, or relaxing by the stream.</li>
+        <li><strong>Aso Rock:</strong> This granite outcrop defines Abuja’s skyline and offers scenic viewpoints near the Presidential Complex.</li>
+        <li><strong>Jabi Lake & Boat Club:</strong> Enjoy kayaking, jet skiing, and lakeside dining with locals and travelers alike.</li>
+      </ul>
+
+      <h3 id="architecture"><strong>Architectural Wonders & Cultural Hubs</strong></h3>
+      <ul>
+        <li><strong>National Mosque & Christian Centre:</strong> Twin landmarks that symbolize religious harmony and national pride.</li>
+        <li><strong>Arts & Crafts Village:</strong> A lively market filled with hand-carved sculptures, textiles, and traditional jewelry.</li>
+        <li><strong>Nike Art Gallery:</strong> Discover one of Africa’s most inspiring art collections — a must-visit for art lovers.</li>
+      </ul>
+
+      <h3 id="escapes"><strong>Natural Escapes</strong></h3>
+      <p>
+        Just an hour away lies <strong>Gurara Waterfalls</strong> — a breathtaking spot for adventurers and photographers. 
+        Best visited during the rainy season when the cascades are at full power.
+      </p>
+
+      <h3 id="tips"><strong>Quick Tourist Tips</strong></h3>
+      <ul>
+        <li><strong>Getting Around:</strong> Ride-hailing apps like Bolt and Uber are your best bet for convenient transport.</li>
+        <li><strong>Local Flavors:</strong> Don’t miss <em>Suya</em> (spicy grilled meat) and <em>Jollof Rice</em>.</li>
+        <li><strong>Best Season:</strong> November to March — dry, cool, and ideal for outdoor exploring.</li>
+      </ul>
+
+      <!-- COMMENT SECTION -->
+      <div class="comment-section">
+        <h4>Post a Comment</h4>
+        <textarea placeholder="Write your comment here..." class="comment-box"></textarea>
+        <button class="post-btn">Post</button>
+      </div>
+    </article>
+  </section>
+</body>
+</html>
