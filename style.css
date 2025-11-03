@@ -227,6 +227,11 @@ a {
   justify-items: center;
 }
 
+.contact-grid div div{
+  text-align: center;
+  
+}
+
 .contact-card {
   text-align: center;
   transition: transform 0.3s ease;
