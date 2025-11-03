@@ -12,13 +12,13 @@
 /* === GENERAL STYLES === */
 body {
   margin: 0;
-  font-family: "Merriweather", serif;
+  font-family: Calibri, 'Trebuchet MS', sans-serif
   background-color: var(--light-cream);
   color: var(--forest-green);
 }
 
 h1, h2, h3 {
-  font-family: "Playfair Display", serif;
+  font-family: Calibri, 'Trebuchet MS', sans-serif
   color: var(--forest-green);
 }
 
